@@ -12,5 +12,6 @@ namespace CastleProjectDemo.Interface
     public interface ILandlordible
     {
         void RentHouse();
+        void Test(string s);
     }
 }

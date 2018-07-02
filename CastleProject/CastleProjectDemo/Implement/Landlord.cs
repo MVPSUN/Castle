@@ -9,11 +9,11 @@ namespace CastleProjectDemo.Implement
 {
     public class Landlord : ILandlordible
     {
-        public virtual void RentHouse()
+        public  void RentHouse()
         {
             Console.WriteLine("房东收取租金！");
         }
-        public virtual void Test(string param)
+        public  void Test(string param)
         {
             Console.WriteLine("Test！" + param);
         }
